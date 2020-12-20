@@ -1,0 +1,27 @@
+version: '3.7'
+
+services:
+    mysql:
+        environment:
+            MYSQL_ROOT_PASSWORD: somewordpress
+            MYSQL_DATABASE: wordpress
+            MYSQL_USER: wordpress
+            MYSQL_PASSWORD: wordpress
+        image: mysql:5.7
+        volumes:
+            - .docker/mysql/data:/var/lib/mysql
+
+    wordpress:
+        environment:
+            WORDPRESS_DB_HOST: mysql:3306
+            WORDPRESS_DB_USER: wordpress
+            WORDPRESS_DB_PASSWORD: wordpress
+            WORDPRESS_DB_NAME: wordpress
+        image: wordpress:latest
+        links:
+          - mysql
+        ports:
+            - 80:80
+        volumes:
+            - .:/var/www/html/
+            - ./wp-content:/var/www/html/wp-content

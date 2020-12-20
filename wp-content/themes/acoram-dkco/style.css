@@ -1,0 +1,11 @@
+/*
+Theme Name: Acoram Dunkerque Theme
+*/
+
+body > header {background-color: #EEE; margin-bottom: 10px;}
+body > header .nav-link {text-transform: uppercase;}
+body > header .navbar-white .navbar-nav .nav-link { color: white; }
+body > header #slideshow {background-color: #12186B;height: 200px;}
+body > header nav {border-top: 3px solid white;}
+body > header nav#header-main-navbar {background-image: linear-gradient(rgb(74,108,158) 0%, rgb(88,131,184) 100%);}
+body > header nav#header-sub-navbar {background-color: #900;height: 36px;}
