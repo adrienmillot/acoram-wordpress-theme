@@ -32,6 +32,6 @@ Dans notre cas, mysql et httpd.
 # cd <chemin du projet>
 ```
 
-```
+```bash
 # docker-compose down
 ```
