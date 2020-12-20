@@ -29,6 +29,8 @@ Dans notre cas, mysql et httpd.
 
 Tu peux ensuite accéder au site en tappant: http://localhost dans ton navigateur.
 
+Et tu peux accéder à la parti admin en tappant: http://localhost/wp-admin.
+
 # Arrêter les serveurs
 
 
