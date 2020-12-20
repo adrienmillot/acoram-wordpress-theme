@@ -25,6 +25,10 @@ L'option -d signifie daemon, est fait pour que docker s'execute en tâche de fon
 Lors de la première exécution, docker va télécharger les images des différents serveurs dont-il a besoin.
 Dans notre cas, mysql et httpd.
 
+# Accéder au site
+
+Tu peux ensuite accéder au site en tappant: http://localhost dans ton navigateur.
+
 # Arrêter les serveurs
 
 
